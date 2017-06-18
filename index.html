@@ -1,28 +1,18 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Exercises and Examples - VueJs</title>
-
-    <!-- Fonts -->
-    <link rel="stylesheet" href="css/app.css">
+    <title>VueJs examples - Made by Timoteo Shockness</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Arizonia' rel='stylesheet' type='text/css'>
-
-
-</head>
-
-<body>
-    <div class="text-center alert alert-warning">
-        <p>Check it out the Code behind the scenes: <a href="https://github.com/tfshockness/VueJS">tfshockness - github</a></p>
-    </div>
+  </head>
+  <body>
     <div id="app">
+      <app-navigation></app-navigation>
+      <router-view></router-view>
     </div>
-</body>
-<script src="js/app.js"></script>
-
+    <!-- built files will be auto injected -->
+  </body>
 </html>
